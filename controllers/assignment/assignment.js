@@ -11,7 +11,7 @@ const AssignmentController = {
 getAll: async (req, res) => {
   try {
     //console.log("called");
-    const results = await Assignment.getAll();  // ✅ now using async/await
+    const results = await Assignment.getAll();  //  now using async/await
     res.json(results);
   } catch (err) {
     console.error(err);

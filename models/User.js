@@ -148,14 +148,14 @@ class User {
 static verifyJWT(token) {
   try {
     console.log('🔐 Verifying token:', token);
-    console.log('🔑 Using secret:', JWT_SECRET ? 'Secret exists' : 'Secret is missing');
+    console.log(' Using secret:', JWT_SECRET ? 'Secret exists' : 'Secret is missing');
     console.log('📏 Token length:', token?.length);
     
     const decoded = jwt.verify(token, JWT_SECRET);
-    console.log('✅ Token verified successfully:', decoded);
+    console.log(' Token verified successfully:', decoded);
     return decoded;
   } catch (error) {
-    console.error('❌ JWT verification failed:', error.message);
+    console.error(' JWT verification failed:', error.message);
     console.error('🔍 Error details:', error);
     return null;
   }

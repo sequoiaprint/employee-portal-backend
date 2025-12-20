@@ -167,7 +167,7 @@ The backend supports a comprehensive multi-login system with different user role
 
 ### Authentication Flow
 <details>
-<summary><strong>🔑 JWT Authentication Implementation</strong></summary>
+<summary><strong> JWT Authentication Implementation</strong></summary>
 
 ```javascript
 // Middleware for authentication
@@ -543,7 +543,7 @@ module.exports = UserController;
 ```
 </details>
 
-## 📊 Services Overview
+##  Services Overview
 
 <div style="position: relative; width: 500px; height: 500px; 
     box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
